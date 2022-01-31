@@ -53,7 +53,8 @@ p {
 }
 
 .wrapper--main {
-background: url(/air-project/img/background1.png) no-repeat;
+    background: url(/air-project/img/background1.png) no-repeat;
+    background-position: top;
 }
 
 .container {
