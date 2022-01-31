@@ -53,7 +53,7 @@ p {
 }
 
 .wrapper--main {
-background: url(/../../img/background1.png) no-repeat;
+background: url(../../img/background1.png) no-repeat;
 }
 
 .container {
