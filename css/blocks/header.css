@@ -1,0 +1,157 @@
+.header {
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.header__container{
+    margin: 0px auto;
+    width: 1141px;
+    position: relative;
+}
+
+.logo,.menu,.contacts {
+    position: absolute;
+}
+
+.logo {
+    display:block;
+    top: 35px;
+    left: 0;
+}
+
+.menu {
+    top: 45px;
+    left: 164px;
+}
+
+.menu__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    font-size: 14px;
+}
+
+.contacts {
+    top: 34px;
+    right: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.contacts__workhours {
+    font-style: normal;
+    font-weight: normal;
+    display:block;
+    font-size: 13px;
+    text-decoration: underline;
+    text-align: right;
+}
+
+
+
+.footer {
+    height: 94px;
+    margin-bottom: 57px;
+}
+
+.footer__container{
+    margin: 0px auto;
+    width: 1141px;
+    position: relative;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgb(61, 61, 61);
+}
+
+.footer__logo, .footer__menu, .social, .footer__contacts {
+position: absolute;
+}
+
+.footer__logo {
+    display: block;
+    left:0;
+    top: 45px;
+}
+
+.footer__menu {
+    top: 56px;
+    left: 164px;
+}
+
+.footer__menu-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.footer__menu-item:last-child {
+    margin-right: 0;
+}
+
+.footer__menu-link {
+    font-size: 14px;
+}
+
+.social {
+    left: 704px;
+    top: 50px;
+}
+
+.social__link {
+display: block;
+text-decoration: none;
+width: 36px;
+height: 36px;
+background: center center no-repeat;
+}
+
+.social__item {
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+
+.social__item:hover {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.footer__contacts {
+    right: 0;
+    top: 46px;
+    bottom: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.footer__contacts-service {
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer__contacts-phone {
+    font-size: 26px;
+    text-decoration: none
+}

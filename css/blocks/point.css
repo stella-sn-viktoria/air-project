@@ -1,0 +1,18 @@
+.point__content {
+    width: 520px;
+    margin-bottom: 245px;
+}
+
+.point__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 24px;
+}
+
+.point__text {
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+
+
