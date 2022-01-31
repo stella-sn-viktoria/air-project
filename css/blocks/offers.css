@@ -31,7 +31,7 @@
     font-size: 24px;
     line-height: 28px;
     font-weight: bold;
-    margin-bottom: 14px;
+    margin-bottom: 23px;
 }
 
 .offers__feature,.offers__feature-img,.offers__feature-text{
@@ -41,19 +41,23 @@
 .offers__text {
     font-size: 14px;
     color: #303030;
-    margin-bottom: 28px;
+    margin-bottom: 26px;
+    line-height: 1.4;
 }
 
 .offers__feature-text {
     color: #666666;
-    line-height: 47px;
     font-size: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 23px;
 }
 
 .offers__feature {
-    padding-left: 15px;
-    padding-right: 19px;
+    padding-left: 6px;
+    padding-right: 29px;
+}
+
+.news {
+    margin-bottom: 95px;
 }
 
 .news__item {
@@ -64,7 +68,6 @@
     border-radius: 4px;
     overflow: hidden;
     margin-right: 21px;
-    margin-bottom: 54px;
 }
 
 .news__item:last-child {
@@ -82,24 +85,33 @@
     position: absolute;
     left:0;
     right: 0;
-    bottom: 28px;
-    padding-left: 30px;
-    
+    bottom: 0; 
+    padding: 21px 30px;  
+    align-items: baseline;
 }
 
 .new__date {
-    font-size: 14px;
-    }
+    font-size:12px;
+}
 
 .news__title {
 font-size: 24px;
 font-weight: bold;
+margin-bottom: 10px;
+padding-top: 25px;
+line-height: 0.4;
 }
 
+.news__list {
+    margin-bottom: 54px;
+}
+
+.news__text {
+    line-height: 1.5;
+}
 
 .pagination {
     text-align: center;
-    margin-bottom: 93px;
 }
 
 .pagination__display,.pagination__list {
@@ -161,10 +173,10 @@ font-weight: bold;
     width: 794px;
     height: 455px;
     display: block;
-    margin-top: 100px;
+    margin-top: 96px;
     right: 0;
     z-index: 2;
-    background: url(/air-project/img/mountains.png) no-repeat;
+    background: url(/img/mountains.png) no-repeat;
     }
 
 
@@ -184,7 +196,7 @@ font-weight: bold;
     color: #000;
     font-size: 36px;
     font-weight: bold;
-    margin-top: 68px;
+    margin-top: 71px;
     margin-bottom: 40px;
 }
 

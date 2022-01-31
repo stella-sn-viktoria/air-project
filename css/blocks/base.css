@@ -44,7 +44,8 @@ font-weight: normal;
 }
 
 p {
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
@@ -53,14 +54,15 @@ p {
 }
 
 .wrapper--main {
-    background: url(/air-project/img/background1.png) no-repeat;
-    background-position: top;
+background: url(/img/background1.png) no-repeat;
+background-position: top;
 }
 
 .wrapper--main__bottom {
-    background: url(/air-project/img/background2.png) no-repeat;
+    background: url(/img/background2.png) no-repeat;
     background-position: bottom;
 }
+    
 
 .container {
     margin: 0 auto;
@@ -101,6 +103,11 @@ p {
 .button--light:hover {
     background: #F5170E;
     color: #fff;
+}
+
+.button--red:hover {
+    background: #DA0100;
+    color:#fff
 }
 
 .title {

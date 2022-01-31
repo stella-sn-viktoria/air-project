@@ -20,7 +20,7 @@
 }
 
 .menu {
-    top: 45px;
+    top: 56px;
     left: 164px;
 }
 
@@ -87,7 +87,7 @@ position: absolute;
 }
 
 .footer__menu {
-    top: 56px;
+    top: 55px;
     left: 164px;
 }
 
@@ -128,15 +128,27 @@ background: center center no-repeat;
     margin-right: 0;
 }
 
-.social__item:hover {
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
+.social__item--icon--telegram .social__link:hover {
+    background-image: url(/img/telegram2.png);
 }
+
+.social__item--icon--vk .social__link:hover {
+    background-image: url(/img/vk2.png);
+}
+
+.social__item--icon--fb .social__link:hover {
+    background-image: url(/img/fb2.png);
+}
+
+.social__item--icon--instagram .social__link:hover {
+    background-image: url(/img/insta2.png);
+}
+
+
 
 .footer__contacts {
     right: 0;
-    top: 46px;
+    top: 44px;
     bottom: 0;
     font-style: normal;
     text-align: right;
