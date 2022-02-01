@@ -87,19 +87,20 @@
     right: 0;
     bottom: 0; 
     padding: 21px 30px;  
-    align-items: baseline;
+}
+
+.news__text-content--high {
+    padding-bottom: 45px;
 }
 
 .new__date {
-    font-size:12px;
+    font-size:14px;
 }
 
 .news__title {
 font-size: 24px;
 font-weight: bold;
-margin-bottom: 10px;
-padding-top: 25px;
-line-height: 0.4;
+padding-top: 18px;
 }
 
 .news__list {
@@ -146,8 +147,6 @@ line-height: 0.4;
 }
 
 
-
-
 .about__container{
     width: 1141px;
 }
@@ -176,9 +175,8 @@ line-height: 0.4;
     margin-top: 96px;
     right: 0;
     z-index: 2;
-    background: url(/air-project/img/mountains.png) no-repeat;
+    background: url(/img/mountains.png) no-repeat;
     }
-
 
 .about__foreground-text{
     color: #060606;
@@ -190,7 +188,6 @@ line-height: 0.4;
     margin-left: 80px;
     margin-right: 200px;
 }
-
 
 .title--dark {
     color: #000;

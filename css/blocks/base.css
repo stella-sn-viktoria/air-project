@@ -54,12 +54,12 @@ p {
 }
 
 .wrapper--main {
-background: url(/air-project/img/background1.png) no-repeat;
+background: url(/img/background1.png) no-repeat;
 background-position: top;
 }
 
 .wrapper--main__bottom {
-    background: url(/air-project/img/background2.png) no-repeat;
+    background: url(/img/background2.png) no-repeat;
     background-position: bottom;
 }
     
@@ -88,6 +88,7 @@ background-position: top;
     display: block;
     max-width: 168px;
     max-height: 55px;
+    text-align: center;
 }
 
 .button--light {
@@ -97,7 +98,7 @@ background-position: top;
     margin-bottom: 0;
     width: 135px;
     height: 56px;
-    padding: 18px 18px 18px 30px;
+    padding: 18px;
 }
 
 .button--light:hover {
