@@ -1,0 +1,141 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container__section {
+    height: 94px;
+    margin-bottom: 57px;
+    padding-top: 40px;
+}
+
+.footer__col {
+  display: flex; 
+  align-items: center; 
+}
+
+.footer__col--align--right {
+    justify-content: flex-end;
+}
+
+.footer__container{
+    margin-top: auto;
+}
+
+.footer-container__content {
+    border-top: 1px solid rgb(61, 61, 61);
+}
+
+
+.footer__logo {
+    display: block;
+    margin-right: 68px;
+    padding-bottom: 16px;
+    }
+
+.footer__logo--main {
+    margin-right: 78px;
+    padding-bottom: 15px;
+}
+
+.footer__menu-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+}
+
+.footer__menu-item:last-child {
+    margin-right: 0;
+}
+
+.footer__menu-link {
+    font-size: 14px;
+}
+
+.social {
+   margin-right: 74px;
+}
+
+.social__link {
+display: block;
+text-decoration: none;
+width: 36px;
+height: 36px;
+background: center center no-repeat;
+}
+
+.social__item {
+    display:inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.social__item:last-child{
+    margin-right: 0;
+}
+
+.social__item--icon--telegram .social__link {
+    background-image: url(/img/telegram.png);
+}
+
+.social__item--icon--telegram .social__link:hover {
+    background-image: url(/img/telegram2.png);
+}
+
+.social__item--icon--vk .social__link {
+    background-image: url(/img/vk.png);
+}
+
+.social__item--icon--vk .social__link:hover {
+    background-image: url(/img/vk2.png);
+}
+
+.social__item--icon--fb .social__link {
+    background-image: url(/img/fb.png);
+}
+
+.social__item--icon--fb .social__link:hover {
+    background-image: url(/img/fb2.png);
+}
+
+.social__item--icon--instagram .social__link {
+    background-image: url(/img/insta.png);
+}
+
+.social__item--icon--instagram .social__link:hover {
+    background-image: url(/img/insta2.png);
+}
+
+
+.footer__contacts {
+    right: 0;
+    top: 44px;
+    bottom: 0;
+    font-style: normal;
+    text-align: right;
+}
+
+.footer__contacts-service {
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    text-align: right;
+}
+
+.footer__contacts-phone {
+    font-size: 26px;
+    text-decoration: none
+}
+
+.inner-footer__container {
+    padding: 41px 0;
+}
+
+.inner-footer {
+    margin-top: auto;
+}
+

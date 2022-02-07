@@ -1,203 +1,62 @@
-.offers {
-    margin-bottom: 124px;
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 127px;
 }
 
 .title--fire {
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 51px;
+    margin-bottom: 49px;
 }
 
 .offers__item {
-    height: 450px;
-    display: inline-block;
+    min-height: 450px;
     background: #fff;
-    margin-right: 24px;
-    width: 361px;
+    width: calc(100% / 3 - 18px);
     border-radius: 4px;
-    margin-bottom: 0x;
-}
-
-.offers__item:last-child {
-    margin-right: 0;
+    overflow: hidden;
 }
 
 .offers__content {
     padding: 36px 28px 22px 21px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .offers__title {
     font-size: 24px;
-    line-height: 28px;
     font-weight: bold;
-    margin-bottom: 23px;
+    padding-bottom: 25px;
 }
 
-.offers__feature,.offers__feature-img,.offers__feature-text{
-    display:inline-block
-}
 
 .offers__text {
     font-size: 14px;
     color: #303030;
-    margin-bottom: 26px;
-    line-height: 1.4;
+    line-height: 1.5;
+    padding-bottom: 24px;
 }
 
 .offers__feature-text {
     color: #666666;
     font-size: 16px;
-    margin-bottom: 23px;
+    margin-right: 40px;
+    margin-left: 3px;
 }
 
 .offers__feature {
-    padding-left: 6px;
-    padding-right: 29px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 23px;
 }
 
-.news {
-    margin-bottom: 95px;
+.button--light {
+display: flex;
+margin-top: auto;
+text-align: center;
+justify-content: center;
 }
-
-.news__item {
-    width: 556px;
-    display: inline-block;
-    vertical-align: top;
-    position: relative;
-    border-radius: 4px;
-    overflow: hidden;
-    margin-right: 21px;
-}
-
-.news__item:last-child {
-    margin-right: 0;
-}
-
-.news__img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.news__text-content {
-    position: absolute;
-    left:0;
-    right: 0;
-    bottom: 0; 
-    padding: 21px 30px;  
-}
-
-.news__text-content--high {
-    padding-bottom: 45px;
-}
-
-.new__date {
-    font-size:14px;
-}
-
-.news__title {
-font-size: 24px;
-font-weight: bold;
-padding-top: 18px;
-}
-
-.news__list {
-    margin-bottom: 54px;
-}
-
-.news__text {
-    line-height: 1.5;
-}
-
-.pagination {
-    text-align: center;
-}
-
-.pagination__display,.pagination__list {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.pagination__display {
-    margin-right: 20px;
-}
-
-.pagination__item {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.pagination__button {
-    display: block;
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-weight: bold;
-    line-height: 32px;
-}
-
-.pagination__item:hover {
-    background: #fff;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-}
-
-
-.about__container{
-    width: 1141px;
-}
-
-.about__content {
-    position: relative;
-    height: 552px;
-    margin-bottom: 109px;
-}
-
-
-.about__background-img {
-    position: absolute;
-    z-index: 0;
-    display: block;
-    width: 483px;
-    height: 505px;
-    left: 0;
-}
-
-.about__foreground {
-    position: absolute;
-    width: 794px;
-    height: 455px;
-    display: block;
-    margin-top: 96px;
-    right: 0;
-    z-index: 2;
-    background: url(/air-project/img/mountains.png) no-repeat;
-    }
-
-.about__foreground-text{
-    color: #060606;
-    line-height: 1.6;
-    margin-bottom: 74px;    
-}
-
-.about__foreground-block{
-    margin-left: 80px;
-    margin-right: 200px;
-}
-
-.title--dark {
-    color: #000;
-    font-size: 36px;
-    font-weight: bold;
-    margin-top: 71px;
-    margin-bottom: 40px;
-}
-
-.about__foreground-paragraph {
-    color: #303030;
-    margin-bottom: 100px;
-}  
