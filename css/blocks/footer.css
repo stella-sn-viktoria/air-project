@@ -77,35 +77,35 @@ background: center center no-repeat;
 }
 
 .social__item--icon--telegram .social__link {
-    background-image: url(/img/telegram.png);
+    background-image: url(/air-project/img/telegram.png);
 }
 
 .social__item--icon--telegram .social__link:hover {
-    background-image: url(/img/telegram2.png);
+    background-image: url(/air-project/img/telegram2.png);
 }
 
 .social__item--icon--vk .social__link {
-    background-image: url(/img/vk.png);
+    background-image: url(/air-project/img/vk.png);
 }
 
 .social__item--icon--vk .social__link:hover {
-    background-image: url(/img/vk2.png);
+    background-image: url(/air-project/img/vk2.png);
 }
 
 .social__item--icon--fb .social__link {
-    background-image: url(/img/fb.png);
+    background-image: url(/air-project/img/fb.png);
 }
 
 .social__item--icon--fb .social__link:hover {
-    background-image: url(/img/fb2.png);
+    background-image: url(/air-project/img/fb2.png);
 }
 
 .social__item--icon--instagram .social__link {
-    background-image: url(/img/insta.png);
+    background-image: url(/air-project/img/insta.png);
 }
 
 .social__item--icon--instagram .social__link:hover {
-    background-image: url(/img/insta2.png);
+    background-image: url(/air-project/img/insta2.png);
 }
 
 
