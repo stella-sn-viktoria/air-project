@@ -58,12 +58,12 @@ p {
 }
 
 .wrapper--main {
-background: url(/img/background1.png) no-repeat;
+background: url(/air-project/img/background1.png) no-repeat;
 background-position: top;
 }
 
 .wrapper--main__bottom {
-    background: url(/img/background2.png) no-repeat;
+    background: url(/air-project/img/background2.png) no-repeat;
     background-position: bottom;
 }
     
