@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.header__col--align--right {
+.header__col--right {
     justify-content: flex-end;
 }
 
