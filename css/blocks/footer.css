@@ -115,6 +115,7 @@ background: center center no-repeat;
     bottom: 0;
     font-style: normal;
     text-align: right;
+    line-height: 1.4;
 }
 
 .footer__contacts-service {
@@ -131,11 +132,8 @@ background: center center no-repeat;
     text-decoration: none
 }
 
-.inner-footer__container {
+.footer__container--slim {
     padding: 41px 0;
-}
-
-.inner-footer {
     margin-top: auto;
 }
 
