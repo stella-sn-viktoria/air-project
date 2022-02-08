@@ -16,7 +16,7 @@
   align-items: center; 
 }
 
-.footer__col--align--right {
+.footer__col--right {
     justify-content: flex-end;
 }
 
