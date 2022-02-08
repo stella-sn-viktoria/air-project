@@ -71,7 +71,14 @@
 .service__img {
     width: 41%;
     margin-right: 4%;
+}
+
+.services__item {
     margin-bottom: 50px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
 }
 
 .service__content {
