@@ -131,7 +131,7 @@
     align-items: center;
     justify-content: center;
     filter: grayscale(100%);
-    transition: grayscale .6;
+    transition: .6s;
 }
 
 .partners__link:hover {
