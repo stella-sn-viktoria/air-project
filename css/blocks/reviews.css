@@ -52,7 +52,7 @@ margin-bottom: 12px;
 }
 
 .review__user:after {
-    content: url(/img/vkafter.png);
+    content: url(/air-project/img/vkafter.png);
     height: 30px;
     margin-left: 5px;
 }
@@ -97,7 +97,7 @@ margin-bottom: 12px;
 
 .separator {
     min-height: 363px;
-    background: url(/img/banner.jpg) center center / cover no-repeat;    
+    background: url(/air-project/img/banner.jpg) center center / cover no-repeat;    
     display: flex; 
     flex-direction: column;
     justify-content: center;
