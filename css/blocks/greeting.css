@@ -3,7 +3,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: url(/img/greeting.png) center center / cover no-repeat;
+    background: url(/air-project/img/greeting.png) center center / cover no-repeat;
     display: flex;
     position: relative;
     justify-content: center;
