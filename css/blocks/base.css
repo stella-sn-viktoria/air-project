@@ -75,7 +75,6 @@ background-position: top;
     max-width: 1142px;
     }
 
-
 .button {
     background: #F5170E;
     border-radius: 35px;
@@ -95,11 +94,10 @@ background-position: top;
 }
 
 .button--white {
-    background: #fff;
+    background: transparent;
     color: #F5170E;
     border: 1px solid;
     transition: color, background-color .3s;
-
 }
 
 .button--white:hover {
