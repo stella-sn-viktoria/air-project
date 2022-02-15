@@ -58,12 +58,12 @@ p {
 }
 
 .wrapper--main {
-background: url(/air-project/img/background1.png) no-repeat;
+background: url(/img/background1.png) no-repeat;
 background-position: top;
 }
 
 .wrapper--main__bottom {
-    background: url(/air-project/img/background2.png) no-repeat;
+    background: url(/img/background2.png) no-repeat;
     background-position: bottom;
 }
     
@@ -90,12 +90,16 @@ background-position: top;
     max-width: 168px;
     max-height: 55px;
     text-align: center;
+    transition: color, background-color .3s;
+
 }
 
 .button--white {
     background: #fff;
     color: #F5170E;
     border: 1px solid;
+    transition: color, background-color .3s;
+
 }
 
 .button--white:hover {
@@ -112,6 +116,8 @@ background-position: top;
     height: 56px;
     padding: 18px;
     text-align: center;
+    transition: color, background-color .3s;
+
 }
 
 .button--light:hover {
@@ -124,6 +130,35 @@ background-position: top;
     color:#fff
 }
 
+.button--greet {
+width: 168px;
+height: 55px;
+transition: color, background-color .3s;
+
+}
+
+.button--greet:hover {
+    background: #DA0100;
+    color:#fff
+}
+
+.button--grey {
+    background: #8E8E8E;
+    width: 168px;
+    height: 55px;
+}
+.button--grey:hover {
+    background: #2B2B2B;
+}
+
+.button--shadow {
+box-shadow: 0 3px 2px rgba(0,0,0,0.5);
+transition: color, background-color .3s;
+
+}
+.button--shadow:hover {
+    box-shadow: none;
+}
 
 .title {
     font-family: Open Sans;

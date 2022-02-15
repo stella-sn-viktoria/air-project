@@ -17,7 +17,7 @@
 }
 
 .footer__col--right {
-    justify-content: flex-end;
+    display: flex;
 }
 
 .footer__container{
@@ -32,7 +32,7 @@
 .footer__logo {
     display: block;
     margin-right: 68px;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
     }
 
 .footer__logo--main {
@@ -52,6 +52,11 @@
 
 .footer__menu-link {
     font-size: 14px;
+    transition: color .3s;
+
+}
+.footer__menu-link:hover {
+    color: #DA0100;
 }
 
 .social {
@@ -59,7 +64,7 @@
 }
 
 .social__link {
-display: block;
+display: inline-block;
 text-decoration: none;
 width: 36px;
 height: 36px;
@@ -76,40 +81,120 @@ background: center center no-repeat;
     margin-right: 0;
 }
 
-.social__item--icon--telegram .social__link {
-    background-image: url(/air-project/img/telegram.png);
+.social__item--icon--telegram .social__link:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -122px -10px;
 }
 
-.social__item--icon--telegram .social__link:hover {
-    background-image: url(/air-project/img/telegram2.png);
+.social__item--icon--telegram .social__link:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -122px -66px;
+    opacity: 0;
+    transition: .5s;
 }
 
-.social__item--icon--vk .social__link {
-    background-image: url(/air-project/img/vk.png);
+.social__item--icon--telegram .social__link:hover:before {
+opacity: 1;
 }
 
-.social__item--icon--vk .social__link:hover {
-    background-image: url(/air-project/img/vk2.png);
+.social__item--icon--telegram .social__link:hover:after {
+opacity: 0;
 }
 
-.social__item--icon--fb .social__link {
-    background-image: url(/air-project/img/fb.png);
+.social__item--icon--vk .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -10px -122px;
 }
 
-.social__item--icon--fb .social__link:hover {
-    background-image: url(/air-project/img/fb2.png);
+.social__item--icon--vk .social__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -66px -122px;
+    opacity: 0;
+    transition: .5s;
 }
 
-.social__item--icon--instagram .social__link {
-    background-image: url(/air-project/img/insta.png);
+.social__item--icon--vk .social__link:hover:after {
+    opacity: 0;
+}
+.social__item--icon--vk .social__link:hover:before {
+    opacity: 1;
 }
 
-.social__item--icon--instagram .social__link:hover {
-    background-image: url(/air-project/img/insta2.png);
+.social__item--icon--fb .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -10px -10px;
+}
+
+.social__item--icon--fb .social__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -66px -10px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.social__item--icon--fb .social__link:hover:after {
+    opacity: 0;
+}
+.social__item--icon--fb .social__link:hover:before {
+    opacity: 1;
+}
+
+
+.social__item--icon--instagram .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -10px -66px;
+}
+
+.social__item--icon--instagram .social__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background: url(/img/css_sprites.png) -66px -66px;
+    opacity: 0;
+    transition: .5s;
+}
+
+.social__item--icon--instagram .social__link:hover:after {
+    opacity: 0;
+}
+.social__item--icon--instagram .social__link:hover:before {
+    opacity: 1;
 }
 
 
 .footer__contacts {
+    display: flex;
+    flex-direction: column;
     right: 0;
     top: 44px;
     bottom: 0;
@@ -136,4 +221,6 @@ background: center center no-repeat;
     padding: 41px 0;
     margin-top: auto;
 }
-
+.footer-container--slim .footer-container__section {
+ padding-top: 59px;
+}

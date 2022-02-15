@@ -1,6 +1,6 @@
 .top-line {
     min-height: 412px;
-    background: url(/air-project/img/serviceselephant.png) right 50% top no-repeat;
+    background: url(/img/serviceselephant.png) right 50% top  no-repeat;
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
@@ -17,6 +17,7 @@
     font-size: 72px;
     line-height: 1;
     font-weight: bold;
+    padding-bottom: 14px;
 }
 
 .breadcrumbs__list {
@@ -35,9 +36,10 @@
     font-size: 14px;
     font-weight: normal;
     text-decoration: underline;
+    transition: font-weight .3s
 }
 
-.breadcrumbs__item--active .breadcrumbs__link {
+ .breadcrumbs__link:hover {
     color: #9a9a9a;
     font-weight: bold;
     text-decoration: underline;
@@ -102,17 +104,18 @@
 .inner-section {
     background: #fff;
     color: #1A1B1E;
-    padding: 82px 0;
+    
 }
 
 .inner-section--bg--grey {
     background: #F4F5F5;
+    padding: 82px 0;
 }
 
 .inner-section__title {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 68px;
+    margin-bottom: 60px;
 }
 
 .partners {
@@ -128,6 +131,7 @@
     align-items: center;
     justify-content: center;
     filter: grayscale(100%);
+    transition: grayscale .6;
 }
 
 .partners__link:hover {
