@@ -87,7 +87,7 @@ background: center center no-repeat;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -122px -10px;
+    background: url(/air-project/img/css_sprites.png) -122px -10px;
 }
 
 .social__item--icon--telegram .social__link:before {
@@ -96,7 +96,7 @@ background: center center no-repeat;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -122px -66px;
+    background: url(/air-project/img/css_sprites.png) -122px -66px;
     opacity: 0;
     transition: .5s;
 }
@@ -115,7 +115,7 @@ opacity: 0;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -10px -122px;
+    background: url(/air-project/img/css_sprites.png) -10px -122px;
 }
 
 .social__item--icon--vk .social__link:before {
@@ -124,7 +124,7 @@ opacity: 0;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -66px -122px;
+    background: url(/air-project/img/css_sprites.png) -66px -122px;
     opacity: 0;
     transition: .5s;
 }
@@ -142,7 +142,7 @@ opacity: 0;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -10px -10px;
+    background: url(/air-project/img/css_sprites.png) -10px -10px;
 }
 
 .social__item--icon--fb .social__link:before {
@@ -151,7 +151,7 @@ opacity: 0;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -66px -10px;
+    background: url(/air-project/img/css_sprites.png) -66px -10px;
     opacity: 0;
     transition: .5s;
 }
@@ -170,7 +170,7 @@ opacity: 0;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -10px -66px;
+    background: url(/air-project/img/css_sprites.png) -10px -66px;
 }
 
 .social__item--icon--instagram .social__link:before {
@@ -179,7 +179,7 @@ opacity: 0;
     position: absolute;
     width: 36px;
     height: 36px;
-    background: url(/img/css_sprites.png) -66px -66px;
+    background: url(/air-project/img/css_sprites.png) -66px -66px;
     opacity: 0;
     transition: .5s;
 }
