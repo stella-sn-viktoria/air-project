@@ -35,7 +35,7 @@
         justify-content: center;
         animation: greetanimation 0.8s ease-out; 
         animation-fill-mode: forwards;
-        animation-delay: 1s;
+        animation-delay: 1.5s;
     }
 
     .greet__img {
